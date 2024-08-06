@@ -75,6 +75,7 @@ public class FeedActivity extends AppCompatActivity {
                         Map<String,Object> data =documentSnapshot.getData();
 
                         //Casting
+                        // Hello World!
                         String userEmail =(String) Objects.requireNonNull(data).get("useremail");
                         String comment = (String)data.get("comment");
                         String downloadUrl = (String)data.get("downloadUrl");
