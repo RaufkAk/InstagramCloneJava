@@ -15,14 +15,12 @@
 
 ---
 
-## ⚙️ Installation
+## Klasör Yapısı
+- `app/src/main/java/com/example/instagramclonej/model/Post.java`: Gönderi veri modeli
+- `app/src/main/java/com/example/instagramclonej/adapter/PostAdapter.java`: RecyclerView adaptörü
+- `app/src/main/java/com/example/instagramclonej/view/MainActivity.java`: Giriş ekranı
+- `app/src/main/java/com/example/instagramclonej/view/FeedActivity.java`: Ana akış ekranı
+- `app/src/main/java/com/example/instagramclonej/view/UploadActivity.java`: Fotoğraf yükleme ekranı
 
-### Requirements
-- Android Studio 🛠️  
-- Java 8+ ☕  
-- Android SDK 24+ 📱  
-- Firebase project with `google-services.json`  
-
-### Clone the Project
-```sh
-git clone https://github.com/RaufkAk/InstagramCloneJava.git
+## Lisans
+Bu proje eğitim amaçlıdır.
